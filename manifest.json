@@ -9,7 +9,10 @@
    "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["js/main.js"]
+    "scripts": [
+      "js/utilities.js",
+      "js/main.js"
+    ]
   },
   "permissions": ["contextMenus"],
   "icons": {
