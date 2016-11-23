@@ -5,8 +5,11 @@
   "description": "Searches YouTube for the selected text.",
   "version": "1.0",
 
+  "browser_action": {
+   "default_popup": "popup.html"
+  },
   "background": {
-    "scripts": ["js/home.js"]
+    "scripts": ["js/main.js"]
   },
   "permissions": ["contextMenus"],
   "icons": {
