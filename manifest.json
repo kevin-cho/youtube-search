@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Search",
+  "description": "Searches YouTube for the selected text.",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["js/home.js"]
+  },
+  "permissions": ["contextMenus"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
